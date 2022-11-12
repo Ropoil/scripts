@@ -8,7 +8,7 @@ def crack_password(password_list, obj):
         for line in file:
             for word in line.split():
                 try:
-                    idx ++
+                    idx +=1
                     obj.extractall(pwd=word)
                     print("Password found at line", idx)
                     print(word.decode())
