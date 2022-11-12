@@ -1,3 +1,4 @@
+
 import zipfile
 
 
@@ -17,9 +18,9 @@ def crack_password(password_list, obj):
 
 
 
-password_list = "rockyou.txt"
+password_list = "change to dictionary file path"
 
-zip_file = "secret.zip"
+zip_file = "change to zip file path "
 
 obj = zipfile.ZipFile(zip_file)
 
